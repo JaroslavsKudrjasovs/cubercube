@@ -59,7 +59,7 @@ public class OrderApiTest extends BaseTest {
         CCMatcherAssert.assertThat(LOGGER, "Log ID. ", jsonPath.get("id"), equalTo(id));
     }
 
-    //todo: mess-up in swagger
+    //todo: there is a mess-up in swagger with this end-point
     @Test(dependsOnMethods = "addStoreOrderTest")
     void getStoreOrderByIdTest() {
         OrderDTO orderDTO = RestAssured
