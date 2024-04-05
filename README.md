@@ -25,12 +25,12 @@ Wait until Maven resolves dependencies (downloads all required libraries)
 
 **Run the tests:**
 
-Navigate to '.\src\test\resources\'
+Navigate to '.\src\test\suites\'
 
 Right click 'smoke.xml' and choose 'Run' (Ctrl+Shift+F10)
 
 
 **To view the results:**
 
-Navigate to '.\test-output\old'
+Navigate to '.\test-output\html'
 Right click 'index.html' and choose 'Open in->Browser->Chrome'
