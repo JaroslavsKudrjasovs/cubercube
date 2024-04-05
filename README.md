@@ -1,6 +1,7 @@
 <h3>How to run the tests:</h3>
 
 <h4>Create project in IntelliJ IDEA:</h4>
+
 1) On your local machine navigate to the folder where you want to create a maven project (for example C:\projects\)
 2) Right click in the 'projects' folder and choose 'Git Clone'
 3) In the 'URL' field enter 'https://github.com/JaroslavsKudrjasovs/cybercube_t1' and click 'OK'
@@ -13,9 +14,11 @@
 10) Wait until Maven resolves dependencies (downloads all required libraries)
 
 <h4>Run the tests:</h4>
+
 1. Navigate to '.\src\test\suites\'
 2. Right click 'smoke.xml' and choose 'Run' (Ctrl+Shift+F10)
 
 <h4>To view the results:</h4>
-1. Navigate to '.\test-output\html'
-2. Right click 'index.html' and choose 'Open in->Browser->Chrome'
+
+1) Navigate to '.\test-output\html'
+2) Right click 'index.html' and choose 'Open in->Browser->Chrome'
